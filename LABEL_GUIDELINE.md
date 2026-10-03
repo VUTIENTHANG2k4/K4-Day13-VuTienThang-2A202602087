@@ -9,7 +9,7 @@ Schema ca này có năm nhãn cuboid: `vehicles`, `two-wheels`, `pedestrian`, `A
 | Đối tượng xác định được | Class | Điểm cần kiểm |
 | --- | --- | --- |
 | Ô tô, van, xe tải, xe buýt | `vehicles` | Bao thân xe; xe dài không co thành hộp sedan theo mảng điểm gần |
-| Xe máy, xe đạp | `two-wheels` | Phân biệt với người/xe bốn bánh; không giữ class theo model khi ảnh cho thấy khác |
+| Xe máy, xe đạp | `two-wheels` | Phân biệt với người/xe bốn bánh; không giữ class theo model khi ảnh cho thấy khác |V
 | Người | `pedestrian` | Đừng ghép nhiều người vào một hộp; hướng cần bằng chứng |
 | Động vật | `Animal` | Chỉ thêm khi xác định được; model không tạo lớp này |
 | Vật cản thuộc schema của ca | `Obstacle` | Không gán mọi cây/cột/mặt đường vào lớp này; trường hợp ngoài taxonomy hỏi coach |
